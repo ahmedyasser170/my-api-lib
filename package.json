@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "postinstall": "npm i axios"
+
   },
   "files": [
     "dist/**/*"
@@ -22,7 +24,8 @@
     "axios": "^0.x.x"
   },
   "dependencies": {
-    "typescript": "^3.4.3"
+    "typescript": "^3.4.3",
+    "axios": "^0.x.x"
   }
 
 }
