@@ -24,13 +24,9 @@
     "outDir": "dist",
     "baseUrl": ".",
     "paths": {
-      "*": [
-        "node_modules/*",
-        "src/types/*"
-      ]
-    }
+      "*": ["node_modules/*", "src/types/*"]
+    },
+    "jsx": "react-jsx" // Ensure TypeScript version is 4.1 or higher
   },
-  "include": [
-    "src/**/*"
-  ]
+  "include": ["src/**/*", "pages/**/*", "components/**/*"]
 }

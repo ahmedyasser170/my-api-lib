@@ -4,8 +4,11 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "postinstall": "npm i axios"
-
+    "clean": "rm -rf dist",
+    "postinstall": "npm i axios",
+    "dev": "next dev",
+    "build-next": "next build",
+    "start": "next start"
   },
   "files": [
     "dist/**/*"
@@ -20,12 +23,12 @@
     "ts-node"
   ],
   "devDependencies": {
-    "typescript": "^3.4.3",
-    "axios": "^0.x.x"
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "axios": "^0.27.2",
+    "typescript": "^5.0.0"
   },
   "dependencies": {
-    "typescript": "^3.4.3",
-    "axios": "^0.x.x"
+    "typescript": "^5.0.0"
   }
-
 }
