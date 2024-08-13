@@ -1,2 +1,3 @@
 import React from 'react';
-export declare const MyHomePage: React.FC;
+declare const MyHomePage: React.FC;
+export default MyHomePage;

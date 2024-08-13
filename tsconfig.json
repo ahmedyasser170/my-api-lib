@@ -28,5 +28,5 @@
     },
     "jsx": "react-jsx" // Ensure TypeScript version is 4.1 or higher
   },
-  "include": ["src/**/*", "src/pages/**/*", "components/**/*"]
+  "include": ["src/**/*", "src/pages/**/*", "src/components/**/*", "components/**/*"]
 }
